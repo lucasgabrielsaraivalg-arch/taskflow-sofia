@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TaskFlow Sofia — Gestão de Tarefas e Agenda</title>
+<meta name="description" content="TaskFlow Sofia — aplicativo de gestão de tarefas, agenda e equipe, com integração ao Google Calendar. Desenvolvido por Lucas Gabriel Saraiva.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0a1f44;--gold:#c9a961;--blue:#2563eb;--text:#1e2a44;--muted:#5a6b8c;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;color:var(--text);background:#fff;}
+.hero{background:var(--navy);color:#fff;padding:90px 24px 80px;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 28px,rgba(255,255,255,.02) 28px,rgba(255,255,255,.02) 56px);}
+.hero *{position:relative;}
+.eyebrow{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:18px;}
+h1{font-family:'Playfair Display',serif;font-size:clamp(30px,5vw,52px);font-weight:700;line-height:1.15;max-width:820px;margin:0 auto 18px;}
+h1 em{color:var(--gold);}
+.sub{font-size:16px;color:#c9d4ea;max-width:660px;margin:0 auto;font-weight:300;line-height:1.7;}
+.rule{width:70px;height:3px;background:var(--gold);margin:26px auto 0;}
+.wrap{max-width:960px;margin:0 auto;padding:64px 24px;}
+h2{font-family:'Playfair Display',serif;color:var(--navy);font-size:26px;margin-bottom:12px;}
+p{line-height:1.75;color:var(--muted);margin-bottom:14px;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:28px;}
+.card{border:1px solid #e3e9f4;border-radius:14px;padding:22px;background:#fafbfe;}
+.card b{color:var(--navy);display:block;margin-bottom:7px;font-size:14px;}
+.card span{font-size:13px;color:var(--muted);line-height:1.6;}
+footer{background:var(--navy);color:#c9d4ea;padding:36px 24px;text-align:center;font-size:13px;}
+footer a{color:var(--gold);text-decoration:none;}
+.diamond{color:var(--gold);margin:0 8px;}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="eyebrow">TASKFLOW SOFIA</div>
+  <h1>Gestão · Foco · <em>Resultado</em></h1>
+  <p class="sub">Aplicativo de gestão de tarefas, agenda e equipe com sincronização ao Google Calendar. Uso privado, mediante login autorizado.</p>
+  <div class="rule"></div>
+</section>
+<div class="wrap">
+  <h2>O que é o TaskFlow Sofia</h2>
+  <p>O TaskFlow Sofia é um aplicativo de produtividade para gestão de tarefas, prazos, categorias, equipe e calendário. Ele oferece painel de indicadores, relatórios de planejamento, auditoria de atividades e, mediante autorização do usuário, integração com o Google Calendar para espelhar compromissos e tarefas na agenda pessoal — incluindo a criação de salas do Google Meet.</p>
+  <div class="cards">
+    <div class="card"><b>Tarefas e prazos</b><span>Prioridades, status, subtarefas, responsáveis e filtros avançados.</span></div>
+    <div class="card"><b>Agenda integrada</b><span>Eventos com duração e participantes, sincronizados com o Google Calendar.</span></div>
+    <div class="card"><b>Relatórios</b><span>Painéis, relatórios de planejamento e auditoria de atividades.</span></div>
+    <div class="card"><b>Privacidade</b><span>Acesso restrito por login. Dados de agenda usados apenas para a sincronização autorizada.</span></div>
+  </div>
+  <p style="margin-top:26px;font-size:13.5px;">Desenvolvedor responsável: <strong style="color:var(--navy)">Lucas Gabriel Saraiva</strong> · Rondonópolis — MT · Contato: <strong style="color:var(--navy)">lucasgabrielsaraiva.lg@gmail.com</strong></p>
+</div>
+<footer>
+  TaskFlow Sofia <span class="diamond">◆</span> Aplicativo de uso privado
+  <br><br>
+  <a href="politica-de-privacidade.html">Política de Privacidade</a>
+</footer>
+</body>
+</html>
